@@ -2,6 +2,6 @@
 {
     public interface IConfigureEventRepositorySnapshottingOptionsStage<T> where T : IAggregateMarker
     {
-        public IEventRepository<T> Build();
+        IEventRepository<T> Build();
     }
 }

@@ -1,8 +1,10 @@
 ﻿using EventStore.Client;
 using System;
+using System.Collections.Generic;
 
 namespace EventStore.Repository
 {
+
     public class EventRepositoryBuilder<T> :
         IConfigureEventStoreClientStage<T>,
         IConfigureEventRepositoryOptionsStage<T>,
