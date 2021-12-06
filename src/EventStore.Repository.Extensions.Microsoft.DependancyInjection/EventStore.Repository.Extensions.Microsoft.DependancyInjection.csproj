@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>EventRepository extensions for ASP.NET Core</Description>
+		<Copyright>Copyright Theunis van der Stoep</Copyright>
+		<TargetFrameworks>net5.0</TargetFrameworks>
+		<AssemblyName>EventRepository.Extensions.Microsoft.DependencyInjection</AssemblyName>
+		<PackageId>EventRepository.Extensions.Microsoft.DependencyInjection</PackageId>
+		<PackageTags>eventrepository,eventstore,repository,extensions</PackageTags>
+		<SignAssembly>true</SignAssembly>
+		<Version>0.1.0</Version>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<Deterministic>true</Deterministic>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="EventStore.EventRepository" Version="0.1.1" />
+	</ItemGroup>
+
+</Project>
