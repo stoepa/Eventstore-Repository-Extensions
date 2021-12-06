@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<Description>EventRepository extensions for ASP.NET Core</Description>
@@ -18,7 +18,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <PackageReference Include="EventStore.EventRepository" Version="0.1.1" />
+	  <PackageReference Include="EventStore.EventRepository" Version="0.1.2" />
 	</ItemGroup>
 
 </Project>
